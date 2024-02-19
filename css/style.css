@@ -1,0 +1,120 @@
+/*Vanshika 8928776*/
+/*
+*{
+    margin : 0;
+    padding : 0;
+}*/
+
+html{
+    font-style : normal;
+    font-variant: small-caps;
+    font-weight : lighter;
+    font-size : 20px;
+    line-height: .5em;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    font : italic normal 20px/1.5 Times, "Times New Roman", Georgia, serif;
+
+    color : black;
+}
+body{
+    background-color: #f3e6e7;
+}
+h1, h2 {
+    font-variant: small-caps;
+    color: rgb(69, 39, 39);
+    text-align: center;
+}
+#figcaptions{
+    text-align: center;
+    font: bold;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
+q{
+    font-style: italic;
+    font-family: 'cursive';
+    font-size: 1.5rem;
+}
+#quote{
+    text-align: center;
+    padding: 0.15rem;
+    border-width: 0.15rem;
+    border-style: dashed;
+    border-color: #fc9;
+    box-shadow : .25rem .25rem .25rem rgb(223, 192, 192);
+}
+footer p{
+    font-size: 0.75rem;
+}
+body{
+    width: 100%;
+    max-width: 1250px;
+    padding: 0.5 rem;
+    margin: auto;
+}
+#main-section-figure img{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    padding: 0.15rem;
+    border-radius: 0.25rem;
+    color: hsl(312, 37%, 77%);
+}
+#main-section-figure{
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    padding: 0.15rem;
+    margin-top: 0.15rem auto;
+    margin-bottom: 0.15rem auto;
+}
+#main-section iframe{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    padding: 0.5rem;
+}
+iframe{
+    text-align: center;
+    border-radius: 0.5rem;
+    border-width: 0.15rem;
+    border-style: dashed;
+    border-color: rgb(68, 24, 108);
+}
+header, footer{
+    text-align: center;
+    border-width: 0.15rem; 
+    border-style: dashed;
+    border-color: #ae6e78;
+    background-image: linear-gradient(rgb(166, 156, 158) 50%, rgb(97, 97, 77));
+}
+#main-section{
+    text-align: center;
+    padding: 0.5rem;
+}
+#bio{
+    text-align: left;
+}
+#absolute-path-image{
+    border-style: dashed;
+    border-width: 80%;
+    border-color: rgb(98, 38, 158);
+    border-radius: 0.25rem;
+    color: hsl(223,53,64);
+}
+#relative-path-image{
+    border-style: dashed;
+    border-width: 80%;
+    border-color: rgb(115, 36, 36);
+    border-radius: 0.25rem;
+}
+#relative-path-image figcaption{
+    color: rgb(115, 36, 36);
+}
+#absolute-path-image figcaption{
+    font: rgb(98,38,158);
+}
+section{
+    color: hsl(187,23,54);
+}
