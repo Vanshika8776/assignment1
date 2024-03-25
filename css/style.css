@@ -84,6 +84,7 @@ iframe{
 }
 header, footer{
     text-align: center;
+    margin: 0.25rem;
     border-width: 0.15rem; 
     border-style: dashed;
     border-color: #ae6e78;
@@ -92,9 +93,11 @@ header, footer{
 #main-section{
     text-align: center;
     padding: 0.5rem;
+    margin: 0.25rem;
 }
 #bio{
     text-align: left;
+
 }
 #absolute-path-image{
     border-style: dashed;
@@ -104,10 +107,10 @@ header, footer{
     color: hsl(223,53,64);
 }
 #relative-path-image{
-    border-style: dashed;
-    border-width: 80%;
+    border-style: 1rem solid;
+    border-width: 70%;
     border-color: rgb(115, 36, 36);
-    border-radius: 0.25rem;
+    border-radius: 1rem;
 }
 #relative-path-image figcaption{
     color: rgb(115, 36, 36);
@@ -117,4 +120,185 @@ header, footer{
 }
 section{
     color: hsl(187,23,54);
+}
+img{
+    width : 100%;
+    height : 100%;
+    border-style: ridge;
+}
+#quote{
+    border: 0.75rem burlywood solid;
+    box-shadow : .25rem .25rem .25rem black;
+}
+nav{
+    background-color: palevioletred;
+    padding: 0.15rem;
+    margin: 0.25rem;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+nav ul li a{
+    background-color: white;
+    border: 0.1rem purple;
+    border-style: solid;
+    color: purple;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: italic;
+}
+nav ul li a:hover{
+    background-color: purple;
+    border: 0.1rem solid white;
+}
+#home-link{
+    float: left;
+    width: 50%;
+}
+#contact-link{
+    float: right;
+    width: 50%;
+}
+main{
+    clear : both;
+    margin : .25rem;
+    padding : .25rem;
+    float : left;
+    width : 65%;
+}
+aside{
+    margin : .25rem;
+    float : right;
+    padding : .25rem;
+    width : 25%;
+}
+#bio{
+    clear: both;
+    float : left;
+    width : 45%;
+}
+#relative-path-image{
+    float : right;
+    width : 25%;
+    background-color: hsla(291, 13%, 58%, 0.6);
+    border : 0.25rem solid rgb(245, 145, 205); 
+    border-radius : 1rem;
+    color :  rgb(51, 9, 34);
+}
+#quote{
+    clear: both;
+}
+table, th, td{
+    border : .25rem solid black;
+}
+footer{
+    clear: both;
+}
+table, th, tbody{
+    font-weight: normal; 
+    font-style: bold; 
+    font-variant: small-caps; 
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    text-decoration: underline;
+    height: 1.5rem;
+}
+aside ul li a{
+    color: navy;
+    text-decoration: underline;
+}
+aside ul li a:hover{
+    color: blue;
+}
+form{
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 25rem;
+}
+label, legend{
+    font-size: 1rem;
+    font-variant: small-caps;
+    color :rgb(51, 9, 34);
+    font-weight: bolder;
+    text-align: left;
+}
+input[type="text"]{
+    width: 10rem;
+    height: 0.5rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.25rem
+}
+input[type="date"]{
+    width: 7rem;
+    height: 0.5rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.25rem
+}
+input[type="color"]{
+    width: 5rem;
+    height: 0.5rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.25rem
+}
+input [type="password"]{
+    width: 6rem;
+    height: 0.5rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.25rem
+}
+input[type="checkbox"]{
+    width: 0.5rem;
+    height: 0.75rem;
+    text-align: left;
+    padding: 0.5rem;
+    margin: 0.25rem
+}
+@media (max-width : 900px){
+    html{
+        font-size : 15px;
+    }
+    #bio,  #relative-path-image {
+        float :none;
+        width : 80%;
+    }
+}
+@media (max-width : 600px){
+    html{
+        font-size : 10px;
+    }
+    #home-link,  #contact-link, main, aside {
+        float : none;
+        width : 100% 
+    }
+    aside{
+        text-align: center;
+    }
+    table{
+        margin : auto;
+    }
+}
+@media (max-width : 500px){
+    html{
+        font-size: 8px;
+    }
+    #bio, #relative-path-image{
+        float: none;
+        width: 70%;
+    }
+    aside{
+        float: none;
+        text-align: center;
+    }
 }
