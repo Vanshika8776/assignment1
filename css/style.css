@@ -86,14 +86,17 @@ header, footer{
     text-align: center;
     margin: 0.25rem;
     border-width: 0.15rem; 
-    border-style: dashed;
-    border-color: #ae6e78;
-    background-image: linear-gradient(rgb(166, 156, 158) 50%, rgb(97, 97, 77));
+    border-style: solid;
+    border-color: #e7c4c9;
+    background-image: linear-gradient(rgb(230, 179, 189) 50%, rgb(230, 202, 223));
 }
 #main-section{
     text-align: center;
     padding: 0.5rem;
     margin: 0.25rem;
+}
+#biography{
+    text-align: center;
 }
 #bio{
     text-align: left;
@@ -122,23 +125,23 @@ section{
     color: hsl(187,23,54);
 }
 img{
-    width : 100%;
-    height : 100%;
+    width : 80%;
+    height : 80%;
     border-style: ridge;
 }
 #quote{
-    border: 0.75rem burlywood solid;
-    box-shadow : .25rem .25rem .25rem black;
+    border: 0.15rem burlywood solid;
+    box-shadow : .15rem .15rem .15rem black;
 }
 nav{
     background-color: palevioletred;
-    padding: 0.15rem;
+    padding: 0.25rem;
     margin: 0.25rem;
 }
 nav ul{
     text-align: center;
     list-style-type: none;
-    padding: 0.25rem;
+    padding: 0 1rem 2rem 1rem ;
     margin: 0.25rem;
 }
 nav ul li a{
@@ -184,11 +187,11 @@ aside{
 }
 #relative-path-image{
     float : right;
-    width : 25%;
-    background-color: hsla(291, 13%, 58%, 0.6);
-    border : 0.25rem solid rgb(245, 145, 205); 
-    border-radius : 1rem;
-    color :  rgb(51, 9, 34);
+    width : 27%;
+    background-color: hsla(290, 30%, 96%, 0.6);
+    border : 0.25rem solid rgb(221, 186, 207); 
+    border-radius : 0.75rem;
+    color :  rgb(225, 176, 205);
 }
 #quote{
     clear: both;
